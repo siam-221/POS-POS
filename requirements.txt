@@ -1,0 +1,7 @@
+Flask>=3.0,<4.0
+requests>=2.31,<3.0
+Pillow>=10.0,<13.0
+openpyxl>=3.1,<4.0
+reportlab>=4.0,<5.0
+# Optional: install only if you want the CLIP-based image-search enhancement.
+# fastembed>=0.3

@@ -1,0 +1,11 @@
+Alien Tees ERP - Safe Update Notes
+
+1. Stop the currently running Flask app.
+2. Make a backup copy of your existing app.py.
+3. Replace app.py with the provided updated app.py.
+4. Keep your existing data.db, instance folder, catalog_cache.pkl, sigs.pkl, config.py and other current data files in the same application folder. Do NOT replace your live database with the uploaded data(4).db file.
+5. Start the app as usual: python app.py
+6. Log in as Super Admin. Open the left slide menu and choose Manual Product Add.
+7. Add a product code, name, price and direct image URL. Optional fields accept extra image URLs (one per line), website URL and description.
+
+The Python syntax compile check passed. Full live-browser regression and live catalog/courier integrations were not run in this environment. Test the updated app on a backup/staging copy before production use.
